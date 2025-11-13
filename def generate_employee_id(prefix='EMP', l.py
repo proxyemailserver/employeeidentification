@@ -19,7 +19,8 @@ def generate_employee_id(prefix='EMP', length=8):
 
 # Example usage
 if __name__ == "__main__":
-    # Generate 5 sample employee IDs
+    # Generate sample employee IDs
     print("Sample Employee IDs:")
     for _ in range(5):
+
         print(generate_employee_id())
